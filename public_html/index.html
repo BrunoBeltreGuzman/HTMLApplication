@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HTML Aplication</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap 4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/navBar.css">
+        <script src="https://kit.fontawesome.com/5892669013.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="bg bg-dark">
+        <header>
+            <div class="container-fluid bg bg-dark fixed-top">
+                <div class="container">
+                    <ul class="nav nav-justified py-2 nav pills">
+                        <li class="nav-item">
+                            <a class="btn btn-primary w-50" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-dark w-50" href="pages/registros.html">Registros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-dark w-50" href="pages/registrarse.html">Registrarse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-dark w-50" href="pages/cuenta.html">Usuario</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="text-center">
+                        <br>
+                        <br>
+                        <h1 class="text-light display-3">Hey, Esta es una ejemplo de un Sitio Web con las opereciones basicas del lado del Backend</h1>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="float-left">
+                        <br>
+                        <br>
+                        <h3 class="text-light">Este ejemplo cuenta con los siguiente controles:</h3>
+                    </div>
+                    <div class="container-fluid d-flex bg bg-dark">
+                        <form class="py-5 bg-light w-50 bg bg-dark" method="post">
+                            <div class="bg bg-dark">
+                                <h2 class="text text-light">Formularios</h2>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="form-group">
+                                <label class="text text-light" for="nombre">Nombre:</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg bg-dark"><i class="fas fa-user"></i></span>
+                                    </div>
+                                    <input type="text" placeholder="Digite su nombre" class="form-control bg bg-dark text text-light" id="nombre" name="textNombre">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="text text-light" for="email">Correo:</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg bg-dark"><i class="fas fa-envelope"></i></span>
+                                    </div>
+                                    <input type="email" placeholder="Digite su correo" class="form-control bg bg-dark text text-light" id="email" name="textCorreo">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="text text-light" for="passWord">Password:</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text bg bg-dark"><i class="fas fa-key"></i></span>
+                                    </div>
+                                    <input type="password" placeholder="Digite su password" class="form-control bg bg-dark text text-light" id="passWord" name="textPassWord">
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <a class="btn btn-success float-left w-25">Registrar</a>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                        </form>
+                    </div>
+
+                    <div class="container">
+                        <h2 class="text-light">Tables de Registros</h2>
+                        <br>
+                        <br>
+                        <table class="table table-condensed table-dark table-hover">
+                            <thead>
+                                <tr class="bg-dark text-light">
+                                    <th>#</th>
+                                    <th>Nombre</th>
+                                    <th>Correo</th>
+                                    <th>Fecha</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Jonh</td>
+                                    <td>jonh@example.com</td>
+                                    <td>29/10/2020</td>
+                                    <td>
+                                        <div class="btn-group float-right">
+                                            <div class="px-3">
+                                                <a class = "btn btn-warning">Editar</a>
+                                            </div>
+                                            <div class="px-3">
+                                                <a class = "btn btn-danger">Eliminar</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Jonh</td>
+                                    <td>jonh@example.com</td>
+                                    <td>29/10/2020</td>
+                                    <td>
+                                        <div class="btn-group float-right">
+                                            <div class="px-3">
+                                                <a class = "btn btn-warning">Editar</a>
+                                            </div>
+                                            <div class="px-3">
+                                                <a class = "btn btn-danger">Eliminar</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Jonh</td>
+                                    <td>jonh@example.com</td>
+                                    <td>29/10/2020</td>
+                                    <td>
+                                        <div class="btn-group float-right">
+                                            <div class="px-3">
+                                                <a class = "btn btn-warning">Editar</a>
+                                            </div>
+                                            <div class="px-3">
+                                                <a class = "btn btn-danger">Eliminar</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Jonh</td>
+                                    <td>jonh@example.com</td>
+                                    <td>29/10/2020</td>
+                                    <td>
+                                        <div class="btn-group float-right">
+                                            <div class="px-3">
+                                                <a class = "btn btn-warning">Editar</a>
+                                            </div>
+                                            <div class="px-3">
+                                                <a class = "btn btn-danger">Eliminar</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Jonh</td>
+                                    <td>jonh@example.com</td>
+                                    <td>29/10/2020</td>
+                                    <td>
+                                        <div class="btn-group float-right">
+                                            <div class="px-3">
+                                                <a class = "btn btn-warning">Editar</a>
+                                            </div>
+                                            <div class="px-3">
+                                                <a class = "btn btn-danger">Eliminar</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Jonh</td>
+                                    <td>jonh@example.com</td>
+                                    <td>29/10/2020</td>
+                                    <td>
+                                        <div class="btn-group float-right">
+                                            <div class="px-3">
+                                                <a class = "btn btn-warning">Editar</a>
+                                            </div>
+                                            <div class="px-3">
+                                                <a class = "btn btn-danger">Eliminar</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Jonh</td>
+                                    <td>jonh@example.com</td>
+                                    <td>29/10/2020</td>
+                                    <td>
+                                        <div class="btn-group float-right">
+                                            <div class="px-3">
+                                                <a class = "btn btn-warning">Editar</a>
+                                            </div>
+                                            <div class="px-3">
+                                                <a class = "btn btn-danger">Eliminar</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="text-light">Herramientas</h3>
+                    <br>
+                    <br>
+                    <h6 class="text-light">-Bootstrap 4</h6>
+                    <br>
+                    <h6 class="text-light">-NetBeans IDE</h6>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="text-light">Más Sobre Mí</h3>
+                    <br>
+                    <br>
+                    <h6 class="text-light">GitHub Repository:</h6>
+                    <a href="https://github.com/BrunoBeltreGuzman">https://github.com/BrunoBeltreGuzman</a>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+        <footer class="fixed-bottom bg-dark">
+            <p class="text-center text-light">2020 BrunoDev</p>
+        </footer>
+    </body>
+</html>
